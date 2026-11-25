@@ -1,21 +1,21 @@
 consulta,correcao_baseline,correcao_otimizada,concordam,baseline_ms,baseline_std_ms,otimizado_ms,otimizado_std_ms,delta_pct,speedup,comparacoes_baseline,comparacoes_otimizado,comparacoes_evitadas_pct
-otimizasao,otimizacao,otimizacao,True,160.985,62.424,0.312,0.053,99.81,516.4,3939,3,99.92
-travano,travado,travado,True,154.8,72.949,0.329,0.061,99.79,471.0,3939,7,99.82
-servidro,servidor,servidor,True,103.0,7.77,0.385,0.134,99.63,267.5,3939,6,99.85
-hackr,hack,hack,True,68.601,6.325,0.079,0.026,99.88,867.8,3939,4,99.9
-lagadno,lagado,lagado,True,80.667,3.269,0.08,0.016,99.9,1005.8,3939,1,99.97
-graficso ruim,grafico ruim,grafico ruim,True,87.288,6.572,0.144,0.024,99.84,607.2,3939,3,99.92
-multiplayr,multiplayer,multiplayer,True,124.377,24.636,0.135,0.031,99.89,922.7,3939,2,99.95
-atualisacao,atualizacao,atualizacao,True,128.62,8.729,0.542,0.131,99.58,237.4,3939,7,99.82
-bugado demias,bugado demais,bugado demais,True,101.309,35.825,0.539,0.173,99.47,188.1,3939,10,99.75
-dificil dmeais,dificil dmais,dificil dmais,True,75.619,5.918,0.206,0.059,99.73,366.6,3939,11,99.72
-jogabilidadde,jogabilidade,jogabilidade,True,210.929,92.683,0.423,0.038,99.8,499.1,3939,6,99.85
-pessimo suprote,pessimo suporte,pessimo suporte,True,135.177,72.273,0.955,1.192,99.29,141.5,3939,4,99.9
-comunidadde toxica,comunidade toxica,comunidade toxica,True,296.7,183.045,1.343,0.728,99.55,221.0,3939,10,99.75
-viciamte,viciante,viciante,True,95.782,18.995,0.422,0.425,99.56,227.0,3939,8,99.8
-trapasa,trapaca,trapaca,True,109.026,19.377,0.404,0.151,99.63,269.6,3939,9,99.77
-histroia incrivel,historia incrivel,historia incrivel,True,88.533,13.489,0.351,0.059,99.6,251.9,3939,6,99.85
-desempneho,desempenho,desempenho,True,136.914,54.3,0.358,0.199,99.74,382.0,3939,2,99.95
-chetaers,cheaters,cheaters,True,95.393,20.716,0.121,0.059,99.87,785.7,3939,1,99.97
-precço alto,preco alto,preco alto,True,59.025,15.839,0.321,0.187,99.46,184.0,3939,16,99.59
-otmizado,otimizado,otimizado,True,54.439,4.407,0.217,0.066,99.6,251.1,3939,6,99.85
+otimizasao,otimizacao,otimizacao,True,77.686,16.16,0.142,0.07,99.82,548.3,3939,3,99.92
+travano,travado,travado,True,41.96,1.868,0.157,0.059,99.63,267.0,3939,7,99.82
+servidro,servidor,servidor,True,54.632,11.686,0.125,0.034,99.77,436.0,3939,6,99.85
+hackr,hack,hack,True,38.67,6.616,0.044,0.006,99.89,888.7,3939,4,99.9
+lagadno,lagado,lagado,True,67.105,25.993,0.033,0.004,99.95,2055.7,3939,1,99.97
+graficso ruim,grafico ruim,grafico ruim,True,53.5,7.878,0.092,0.054,99.83,583.4,3939,3,99.92
+multiplayr,multiplayer,multiplayer,True,64.166,14.801,0.159,0.031,99.75,402.5,3939,2,99.95
+atualisacao,atualizacao,atualizacao,True,86.269,17.75,0.222,0.041,99.74,389.1,3939,7,99.82
+bugado demias,bugado demais,bugado demais,True,42.146,4.861,0.161,0.058,99.62,261.6,3939,10,99.75
+dificil dmeais,dificil dmais,dificil dmais,True,42.354,5.208,0.172,0.083,99.59,245.6,3939,11,99.72
+jogabilidadde,jogabilidade,jogabilidade,True,82.438,6.397,0.209,0.163,99.75,393.9,3939,6,99.85
+pessimo suprote,pessimo suporte,pessimo suporte,True,74.418,20.973,0.124,0.017,99.83,599.3,3939,4,99.9
+comunidadde toxica,comunidade toxica,comunidade toxica,True,110.709,27.543,0.294,0.09,99.73,376.2,3939,10,99.75
+viciamte,viciante,viciante,True,54.129,4.124,0.173,0.028,99.68,312.2,3939,8,99.8
+trapasa,trapaca,trapaca,True,54.686,9.886,0.145,0.011,99.74,377.9,3939,9,99.77
+histroia incrivel,historia incrivel,historia incrivel,True,50.072,5.148,0.11,0.011,99.78,455.0,3939,6,99.85
+desempneho,desempenho,desempenho,True,48.892,1.335,0.082,0.01,99.83,599.0,3939,2,99.95
+chetaers,cheaters,cheaters,True,55.225,9.775,0.043,0.003,99.92,1298.9,3939,1,99.97
+precço alto,preco alto,preco alto,True,68.904,21.927,0.284,0.096,99.59,242.9,3939,16,99.59
+otmizado,otimizado,otimizado,True,67.094,12.327,0.276,0.122,99.59,243.0,3939,6,99.85
