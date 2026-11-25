@@ -276,7 +276,7 @@ Fonte: [`docs/benchmark_resultados.md`](docs/benchmark_resultados.md) / [`.csv`]
 
 ```bash
 # 1. Clonar
-git clone https://github.com/<usuario>/projeto-t2-fucape.git
+git clone https://github.com/emerichmatheus/projeto-t2-fucape.git
 cd projeto-t2-fucape
 
 # 2. Variáveis de ambiente (credenciais locais; o .env não é versionado)
