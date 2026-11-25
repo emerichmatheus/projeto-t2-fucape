@@ -71,10 +71,13 @@ def faixa_reviews(n: int | None) -> str:
 
 
 def parse_release_date(text: str | None) -> date | None:
-    """Converte '21 ago. 2012', '26 fev. 2016' ou 'Aug 21, 2012' em date."""
+    """Converte '4/nov./2020', '21 ago. 2012' ou 'Aug 21, 2012' em date."""
     if not text:
         return None
-    t = text.lower().replace(".", " ").replace(",", " ").replace(" de ", " ")
+    t = text.lower()
+    for sep in (".", ",", "/", "-"):
+        t = t.replace(sep, " ")
+    t = f" {t} ".replace(" de ", " ")
     parts = t.split()
     nums = [p for p in parts if p.isdigit()]
     words = [p[:3] for p in parts if p.isalpha()]
