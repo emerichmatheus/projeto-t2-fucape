@@ -1,0 +1,7 @@
+# Dependências para desenvolvimento local (fora dos contêineres).
+# O Airflow roda na imagem oficial apache/airflow:2.10.5-python3.11, que já
+# inclui requests, psycopg2 e o provider de Postgres usados pelas DAGs.
+# O painel usa requirements-app.txt (instalado no contêiner streamlit).
+-r requirements-app.txt
+requests==2.32.3
+pytest==8.3.3
