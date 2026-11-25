@@ -8,7 +8,7 @@ Pipeline de dados conteinerizado (Airflow → Raw JSONL → Star Schema de Kimba
 
 | | |
 |---|---|
-| **Integrante(s)** | Matheus Teixeira do Carmo Emerich <!-- adicionar o nome da dupla, se houver --> |
+| **Integrantes** | Matheus Teixeira do Carmo Emerich · Guilherme Bazani |
 | **Curso** | Ciência de Dados para Negócios — FUCAPE Business School |
 | **Disciplinas** | Modelagem Informacional · PLN e Sistemas de Recuperação de Informação |
 | **Docente** | Prof. Dr. Wagner Perin |
