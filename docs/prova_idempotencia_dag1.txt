@@ -1,0 +1,23 @@
+== ANTES do Clear (partição data/raw/steam_reviews/ingest_date=2026-11-25)
+16
+   15953 total
+app_id=1172470.jsonl 2000 unicos 2000
+app_id=1245620.jsonl 2000 unicos 2000
+app_id=252490.jsonl 2000 unicos 2000
+app_id=271590.jsonl 2000 unicos 2000
+app_id=413150.jsonl 1953 unicos 1953
+app_id=570.jsonl 2000 unicos 2000
+app_id=578080.jsonl 2000 unicos 2000
+app_id=730.jsonl 2000 unicos 2000
+
+== DEPOIS do Clear + reexecução de coletar_reviews (mesmo ds)
+16
+   16000 total
+app_id=1172470.jsonl 2000 unicos 2000
+app_id=1245620.jsonl 2000 unicos 2000
+app_id=252490.jsonl 2000 unicos 2000
+app_id=271590.jsonl 2000 unicos 2000
+app_id=413150.jsonl 2000 unicos 2000
+app_id=570.jsonl 2000 unicos 2000
+app_id=578080.jsonl 2000 unicos 2000
+app_id=730.jsonl 2000 unicos 2000

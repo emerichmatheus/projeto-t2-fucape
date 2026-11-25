@@ -1,0 +1,27 @@
+Partição raw: ingest_date=2026-11-25
+== ANTES
+ linhas | nks_distintas | soma_qtd_review | soma_recomendou | soma_votos_util | soma_horas | autores | max_sk_autor | jogos | dias 
+--------+---------------+-----------------+-----------------+-----------------+------------+---------+--------------+-------+------
+  15962 |         15962 |           15962 |           14153 |            6145 | 9736164.96 |   15830 |        31607 |     8 |  806
+(1 row)
+
+Aguardando prova_idempotencia_1_1795615902 .. -> success
+== DEPOIS DA 1ª EXECUÇÃO
+ linhas | nks_distintas | soma_qtd_review | soma_recomendou | soma_votos_util | soma_horas | autores | max_sk_autor | jogos | dias 
+--------+---------------+-----------------+-----------------+-----------------+------------+---------+--------------+-------+------
+  15962 |         15962 |           15962 |           14153 |            6145 | 9736164.96 |   15830 |        31607 |     8 |  806
+(1 row)
+
+Aguardando prova_idempotencia_2_1795615929 .. -> success
+== DEPOIS DA 2ª EXECUÇÃO (deve ser idêntico ao anterior)
+ linhas | nks_distintas | soma_qtd_review | soma_recomendou | soma_votos_util | soma_horas | autores | max_sk_autor | jogos | dias 
+--------+---------------+-----------------+-----------------+-----------------+------------+---------+--------------+-------+------
+  15962 |         15962 |           15962 |           14153 |            6145 | 9736164.96 |   15830 |        31607 |     8 |  806
+(1 row)
+
+             run_id              | linhas_lidas | linhas_inseridas | linhas_atualizadas | status  
+---------------------------------+--------------+------------------+--------------------+---------
+ prova_idempotencia_2_1795615929 |        15953 |                0 |              15914 | success
+ prova_idempotencia_1_1795615902 |        15953 |                0 |              15914 | success
+(2 rows)
+
